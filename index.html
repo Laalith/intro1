@@ -1,24 +1,247 @@
 
-<html>
-        <head>
-         <title>
-           intro
-         </title>
-		<style>
-			h1{color: red;}
-			body{background-image: url("phani.jpg");}
-		</style>
-        </head>
-        <body>
-		
-		<h1>HBD</h1>
-         <h2><i><b>G SRI PHANI VENKAT</b></i> </h2>
-     <video width="640" height="360" controls>
-    <source src="phani.mp4" type="video/mp4">
- </video>
-  
-        </body>
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>NARUTO</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body {
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://wallpapers.com/images/hd/naruto-4k-jump-force-m1rpjfr9v4zrxs1y.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
 
-        </html>
+header {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100vw;
+}
+
+.title {
+  cursor: default;
+  user-select: none;
+}
+
+header ul {
+    list-style-type: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+#section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    opacity: 0.5;
+}
+
+#section-3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    opacity: 0.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgba(255, 255, 255, 0.75)
+}
+
+#mini-article {
+    position: relative;
+    text-align: center;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+#mini-article img {
+    transition: 300ms;
+    filter: brightness(0.25) saturate(0) blur(3px);
+    z-index: 1 !important;
+}
+
+#mini-article img:hover{
+    transition: 300ms;
+    filter: brightness(1) saturate(1) blur(0);
+    opacity: 1;
+}
+
+#mini-article .content:hover{
+    transition: 300ms;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#mini-article .content {
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    opacity: 0.75;
+    cursor: default;
+    z-index: 99;
+    user-select: none;
+    filter:brightness(1) invert(0);
+
+}
+
+#mini-article img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: 0 10%;
+    opacity: 0.85;
+}
+
+#section-3{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 
+.content {
+    position: relative;
+}
+
+#footer {
+    background-color: black;
+}
+
+#footer ul {
+    text-align: center;
+    cursor: default;
+    padding: 25px 0px;
+}
+
+#footer li {
+    display: inline;
+    cursor:pointer;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+#footer a:hover{
+    transition: 300ms;
+    color: black;
+    background-color: white;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vh-80 {
+    height: 80vh;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vh-10 {
+    height: 10vh;
+}
+
+.border {
+    border: solid 10px green;
+}
+</style>
+    </head>
+
+    <body>
+        
+        <header>
+            <ul>
+                
+                <li><a href="">Biography</a></li>
+                
+                <li><a href="">Powers</a></li>
+                
+            </ul>
+        </header>
+    
+
+        <article id="article">
+            <section class="vw-100 vh-100 title" id="section-1">
+                N A R U T O
+            </section>
+
+            <section class="vw-100 vh-50" id="mini-article">
+                <img src="https://wallpaperteg.com/wp-content/uploads/2021/06/Naruto-Madara-Vs-Hashirama-4k-Wallpapers-Uhd.jpg">
+                <div class="content">
+                    Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. He is a ninja from the fictional Hidden Leaf Village. As a boy, Naruto is ridiculed and ostracized on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in his body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval. His carefree, optimistic, and boisterous personality enables him to befriend other Konohagakure ninja, as well as ninja from other villages.
+                </div>
+                </section>
+
+            <section class="vw-100 vh-100" id="section-3">
+                <span class="title">N A R U T O</span>
+                <span class="title">U Z U M A K I</span>
+            </section>
+        </article>
+
+        <footer id="footer">
+            <ul>
+               
+                <a href=""><li>ANIME</li></a>
+                
+                <a href=""><li>About</li></a>
+            </ul>
+        </footer>
+    </body>
+</html>
